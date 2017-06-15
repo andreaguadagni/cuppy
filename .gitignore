@@ -161,4 +161,12 @@ Thumbs.db
 .idea
 idea-module-files
 
+ ../Mobile-Commerce-SDK/
+        ../hybris-Mobile-Apps-SDK/
+        ../hybris-commerce-suite-5.4.0.0.zip
+        ../hybris-dependencies/
+        ../hybris-ems/
+        ../hybris-oms/
+        ../hybris-sbg/
+        ../pom.xml
 
