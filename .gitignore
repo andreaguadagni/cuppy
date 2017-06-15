@@ -1,0 +1,164 @@
+# General files to ignore
+#
+*.class
+*.ear
+*.war
+*.log
+*.DS_Store
+*.bak
+revision.txt
+*.vscode
+
+
+##############################
+# hybris Ant generated files #
+##############################
+build.xml
+extensioninfo.xsd
+hmc.xsd
+platformhome.properties
+*testclasses.xml
+beans.xsd
+items.xsd
+*hmc.jar
+Generated*.java
+ruleset.xml
+
+
+
+
+#########################
+# Hybris Custom Ignores #
+#########################
+bin/*
+!bin/custom/
+bin/custom/*/.externalToolBuilders/*
+bin/custom/tealiumiqaddon/hmc/bin/tealiumiqaddonhmc.jar
+bin/custom/oakleycommercesearchbackoffice/resources/backoffice/oakleycommercesearchbackoffice_bof.jar
+bin/custom/oakley/oakleystorefront/web/webroot/WEB-INF/messages/addons/
+bin/custom/oakley/oakleystorefront/web/webroot/WEB-INF/tld/addons/
+bin/custom/oakley/oakleystorefront/web/webroot/WEB-INF/views/addons/
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/addons/
+bin/custom/oakley/oakleystorefront/web/webroot/WEB-INF/tags/addons/bazaarvoice/
+bin/custom/oakley/oakleystorefront/web/webroot/WEB-INF/tags/addons/monetateb2c/
+bin/custom/oakley/oakleystorefront/web/webroot/WEB-INF/tags/addons/tealiumiqaddon/desktop/
+bin/custom/oakley/oakleystorefront/web/webroot/WEB-INF/tags/addons/tealiumiqaddon/mobile/
+bin/custom/oakley/oakleystorefront/web/addonsrc/
+bin/custom/oakleysapintegration/platformhome.properties
+bn/custom/monetateb2c/platformhome.properties
+bin/custom/tealiumiqaddon/platformhome.properties
+
+
+bin/**/bin
+
+bin/custom/**/gensrc/*
+bin/custom/**/classes/*
+bin/custom/**/web/webroot/cockpit/
+bin/custom/**/web/webroot/cmscockpit/
+bin/custom/**/web/webroot/productcockpit/
+bin/custom/oakley/oakleystorefront/web/commonwebsrc/*
+
+##############################
+# Hybris F/E Ignores : Start #
+##############################
+
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/dev/node_modules/*
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/dist/*.html
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/dist/bower_components/**
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/dist/layouts/**
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/dist/modules/*.js
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/dist/scripts/*.js
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/dist/scripts/modules/**
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/dist/styles/**
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/dist/videos/**
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/dist/**/*.html
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/desktop/**/*.min.js
+bin/custom/oakley/oakleystorefront/web/webroot/_ui/desktop/**/*.css
+!bin/custom/oakley/oakleystorefront/web/webroot/_ui/desktop/**/js/lib/*
+!bin/custom/oakley/oakleystorefront/web/webroot/_ui/dist/scripts/vendor/**/*
+bin/custom/bazaarvoice/resources/feed/*
+
+##############################
+# Hybris F/E Ignores : End #
+##############################
+
+config/customize/dummy.txt
+config/languages/
+config/readme.txt
+
+!*Manager.java
+!*Test.java
+!*Factory.java
+
+# Ignore top level directories, e.g. directories at the same level as the .gitignore
+/data
+/log
+/temp
+/licenses
+/sampleconfigurations
+
+# Ignore hybris webservice module generated files
+generated-platformwebservices-web-spring.xml
+
+# Eclipse files / directories to ignore
+#
+# Allow, .settings, .classpath and .project
+.metadata
+.pmd
+.ruleset
+.springBeans
+eclipsebin
+
+# Other generated files to ignore
+config/system.properties
+config/solr/embedded/solr.xml
+
+
+#########################
+# Maven generated files #
+#########################
+target/
+
+######################
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+################################
+# Sublime Text generated files #
+################################
+*.sublime-project
+*.sublime-workspace
+
+##############
+# Diff Files #
+##############
+*.orig
+
+######################
+# Editing temp files #
+######################
+*~
+*#
+
+###########################
+# Other unnecessary files #
+###########################
+.svn
+
+##############
+# Exceptions #
+##############
+# !xxx.jar
+
+
+#################
+# Intellij Idea #
+#################
+.idea
+idea-module-files
+
+
